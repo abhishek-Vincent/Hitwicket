@@ -1,4 +1,4 @@
-void GetLightingInformation_float(out float3 Direction, out float3 Color,out float Attenuation)
+
 {
     #ifdef SHADERGRAPH_PREVIEW
         Direction = float3(-0.5,0.5,-0.5);
